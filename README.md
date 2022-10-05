@@ -3,6 +3,7 @@
  * edit list from script for add apn
  * fix reconnecting xl in fibocom L860
  * the script always runs until it finds the ip address
+ * add ```0 2 * * * /root/autoxmm.sh >/dev/null 2&1``` in schedule task for auto start script at 2 pm
 
 # Install
 ```
